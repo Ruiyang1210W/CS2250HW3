@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 155vh;
+    margin: auto;
+    flex-direction:row;
+    background-image: url(LucyCoding.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.Calculator{
+    display:block;
+    background-color: rgb(75, 164, 123);
+    border: 1.5px solid #44ffbd;
+    border-radius: 5px;
+    padding: 5px;
+    opacity: 0.75;
+}
+.display{
+   text-align: center;
+   margin-bottom: 5px;
+   width: auto;
+}
+
+input[type="text"]{
+    width:fit-content;
+    padding: 6px;
+    font-size: 10px;
+}
+
+.buttons{
+    display:inline-block;
+    gap: 10px;
+    width: 110%;
+    font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+    background-color:rgb(222, 254, 239);
+    border-color: rgb(210, 255, 253);
+    border-radius: 5px;
+}
+
+button:active{
+    background-color: rgb(250, 251, 252);
+}
+
+.clearbutton{
+    background-color: rgb(227, 176, 224);
+}
+
+.operators{
+    background-color: #99c897;
+}
+
